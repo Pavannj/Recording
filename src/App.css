@@ -1,0 +1,46 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  background-image: linear-gradient(to right,  rgb(0, 0, 0), rgb(39, 40, 41));
+}
+#Login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 300px;
+  margin: auto;
+  margin-top: 200px;
+}
+form {
+  color: white;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 40px;
+  box-shadow: 5px 5px 10px white;
+  box-sizing: border-box;
+  background: url("../public/images/fabio-oyXis2kALVg-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 10px;
+  border: 2px solid white;
+}
+label,
+input {
+  padding: 10px;
+  border-radius: 10px;
+ text-decoration: none;
+}
+
+button {
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+
+legend {
+  font-size: 20px;
+}
